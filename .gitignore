@@ -52,6 +52,7 @@ out/
 #VS Code
 .vscode
 .devcontainer
+.history
 
 #spark smoke test
 smoke-test/spark-smoke-test/docker/workspace/

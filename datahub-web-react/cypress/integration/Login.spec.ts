@@ -27,7 +27,7 @@ describe('Login', () => {
             it('then the home page should be displayed', () => {
                 login('kafka');
 
-                cy.contains('Welcome back,').should('be.visible');
+                cy.contains('Welcome backkkk,').should('be.visible');
                 cy.contains('Datasets').should('be.visible');
                 cy.contains('Dashboard').should('be.visible');
                 cy.contains('Chart').should('be.visible');
