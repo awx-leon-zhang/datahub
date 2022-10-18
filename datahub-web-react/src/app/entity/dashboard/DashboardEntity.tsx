@@ -118,7 +118,7 @@ export class DashboardEntity implements Entity<Dashboard> {
                     },
                 },
                 {
-                    name: 'Datasets',
+                    name: 'Data Entity',
                     component: DashboardDatasetsTab,
                     display: {
                         visible: (_, dashboard: GetDashboardQuery) => (dashboard?.dashboard?.datasets?.total || 0) > 0,

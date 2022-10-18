@@ -75,7 +75,7 @@ export class DatasetEntity implements Entity<Dataset> {
 
     getEntityName = () => 'Dataset';
 
-    getCollectionName = () => 'Datasets';
+    getCollectionName = () => 'Data Entity';
 
     renderProfile = (urn: string) => (
         <EntityProfile
